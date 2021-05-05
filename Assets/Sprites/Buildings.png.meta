@@ -50,6 +50,9 @@ TextureImporter:
   - first:
       213: 3178892129885836689
     second: Buildings_15
+  - first:
+      213: 3120588808847494269
+    second: Buildings_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -80,7 +83,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -94,7 +97,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +118,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -127,7 +130,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -142,10 +145,10 @@ TextureImporter:
       name: Buildings_0
       rect:
         serializedVersion: 2
-        x: 193
-        y: 1847
-        width: 87
-        height: 173
+        x: 512
+        y: 2020
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +166,10 @@ TextureImporter:
       name: Buildings_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2019
-        width: 6
-        height: 7
+        x: 52
+        y: 1854
+        width: 85
+        height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +187,10 @@ TextureImporter:
       name: Buildings_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 1854
-        width: 85
-        height: 164
+        x: 194
+        y: 1847
+        width: 86
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +231,7 @@ TextureImporter:
         serializedVersion: 2
         x: 487
         y: 1847
-        width: 85
+        width: 84
         height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -268,9 +271,9 @@ TextureImporter:
       name: Buildings_6
       rect:
         serializedVersion: 2
-        x: 716
+        x: 717
         y: 1858
-        width: 113
+        width: 111
         height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -310,9 +313,9 @@ TextureImporter:
       name: Buildings_8
       rect:
         serializedVersion: 2
-        x: 988
+        x: 989
         y: 1857
-        width: 115
+        width: 113
         height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -333,7 +336,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1151
         y: 1856
-        width: 112
+        width: 113
         height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -373,9 +376,9 @@ TextureImporter:
       name: Buildings_11
       rect:
         serializedVersion: 2
-        x: 1421
+        x: 1422
         y: 1859
-        width: 111
+        width: 110
         height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -394,10 +397,10 @@ TextureImporter:
       name: Buildings_12
       rect:
         serializedVersion: 2
-        x: 1593
-        y: 1857
-        width: 111
-        height: 108
+        x: 1592
+        y: 1856
+        width: 113
+        height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,7 +420,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1765
         y: 1859
-        width: 111
+        width: 110
         height: 108
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -436,9 +439,9 @@ TextureImporter:
       name: Buildings_14
       rect:
         serializedVersion: 2
-        x: 1946
+        x: 1947
         y: 1858
-        width: 110
+        width: 109
         height: 123
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -458,9 +461,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 61
-        y: 1758
+        y: 1759
         width: 130
-        height: 25
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,6 +473,27 @@ TextureImporter:
       bones: []
       spriteID: 1955125bc81bd1c20800000000000000
       internalID: 3178892129885836689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buildings_16
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1760
+        width: 171
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c0a61fcfe8e4b20800000000000000
+      internalID: 3120588808847494269
       vertices: []
       indices: 
       edges: []
