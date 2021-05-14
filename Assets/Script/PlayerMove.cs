@@ -25,19 +25,19 @@ public class PlayerMove : MonoBehaviour
 
         if (direction > 0)
         {
-            animator.SetBool("MoveRight", true);
-            animator.SetBool("MoveLeft", false);
+            animator.SetBool("WalkingRight", true);
+            animator.SetBool("WalkingLeft", false);
 
         }
         else if (direction < 0)
         {
-            animator.SetBool("MoveRight", false);
-            animator.SetBool("MoveLeft", true);
+            animator.SetBool("WalkingRight", false);
+            animator.SetBool("WalkingLeft", true);
         }
         else
         {
-            animator.SetBool("MoveRight", false);
-            animator.SetBool("MoveLeft", false);
+            animator.SetBool("WalkingRight", false);
+            animator.SetBool("WalkingLeft", false);
         }
     }
 }
